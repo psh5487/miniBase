@@ -11,7 +11,7 @@ SWE3033 데이터베이스 실습 - MiniBase
 ### Architecture
 <img width="550" src="https://user-images.githubusercontent.com/26567880/91587416-b423db80-e991-11ea-9616-fe1dc0be433c.png">
 
-## Lab
+## Lab Assignment
 1. Fields, Tuples, Catalog
 2. BufferPool
 3. HeapFile Mutability, Sequential Scan, Insertion and Deletion, Eviction
