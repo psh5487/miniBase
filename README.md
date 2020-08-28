@@ -21,34 +21,31 @@ SWE3033 데이터베이스 실습 - MiniBase
 7. Lock
 8. Join Optimizer, Table, Stats, Histogram
 
+### Development Environment 
+- Linux 
+
+### Prerequisite
+#### java
+```bash
+sudo apt-get install openjdk-[version]-jdk
+```
+
+#### ant 
+what is ant? [link](http://ant.apache.org/) 
+```bash
+$ sudo apt-get install ant 
+```
+
 ## Command
-### Submission
-```
-$ ant handin
-$ tar -cvzf 2015310884.tar.gz minibaseLab8
-```
-
-### General Test
-* 전체 테스트
-```
-$ ant test
-```
-
-* 하나씩 테스트
-```
-$ ant runtest -Dtest=TupleDescTest
-```
-
-### System Test
-* 전체 테스트
-```
-$ ant systemtest
-```
-
-* 하나씩 테스트
-```
-$ ant runsystest -Dtest=TupleDescTest
-```
+|command|description|
+|----------|-----------------------------------------|
+|ant|Build miniBase|
+|ant test|Run all the unit test provided|
+|ant runtest -Dtest=testname|Run the specific unit test|
+|ant systemtest|Run all the unit test provided|
+|ant run systest -Dtest=testname|Run the specific unit test|
+|ant clean|Remove binary files|
+|and handin|Make tarball|
 
 
 
